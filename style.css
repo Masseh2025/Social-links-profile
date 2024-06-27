@@ -187,6 +187,10 @@ body {
   transition: 0.5s;
 }
 
+.profile-card__authors-links li:last-child {
+  margin-bottom: 0;
+}
+
 /* Hover/focus effect */
 
 .profile-card__authors-links li:hover {
