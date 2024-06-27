@@ -187,7 +187,7 @@ body {
   transition: 0.5s;
 }
 
-.profile-card__authors-links li:last-of-type {
+.profile-card__authors-links a:last-of-type li {
   margin-bottom: 0;
 }
 
