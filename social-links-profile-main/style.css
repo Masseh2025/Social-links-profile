@@ -176,6 +176,7 @@ body {
   text-decoration: none;
   text-align: center;
   font-weight: 600;
+  outline: none;
 }
 
 .profile-card__authors-links li {
@@ -183,4 +184,17 @@ body {
   margin-bottom: 1rem;
   padding: 0.5em 0;
   border-radius: 12px;
+  transition: 0.5s;
+}
+
+/* Hover/focus effect */
+
+.profile-card__authors-links li:hover {
+  background-color: var(--Green);
+  color: var(--Off-Black);
+}
+
+.profile-card__authors-links a:focus li {
+  background-color: var(--Green);
+  color: var(--Off-Black);
 }
