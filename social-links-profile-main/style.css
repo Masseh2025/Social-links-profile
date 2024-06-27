@@ -168,4 +168,19 @@ body {
 
 .profile-card__authors-links {
   margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.profile-card__authors-links * {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+}
+
+.profile-card__authors-links li {
+  background-color: var(--Grey);
+  margin-bottom: 1rem;
+  padding: 0.5em 0;
+  border-radius: 12px;
 }
